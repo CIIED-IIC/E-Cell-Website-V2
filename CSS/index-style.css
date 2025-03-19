@@ -175,6 +175,7 @@ body {
 }
 
 .heading h2, .small-heading {
+    margin-top: 3rem;
     color: #D4AF37;
     font-size: 2.5rem;
     font-weight: bold;
@@ -200,6 +201,14 @@ body {
     line-height: 1.6;
     text-align: center;
     padding: 1rem;
+}
+
+.image-block img {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
 }
 
 @media (max-width: 768px) {
