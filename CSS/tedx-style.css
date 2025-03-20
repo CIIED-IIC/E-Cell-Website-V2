@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #e62b1e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.countdown {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.speakers-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.speaker-card {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.speaker-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-register {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 10px 25px;
+    background-color: #e62b1e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 15px 10px;
+}
+#threejs-container {
+    width: 100vw;
+    height: 100vh;
+}
