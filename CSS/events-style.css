@@ -1,0 +1,228 @@
+/* events-style.css - Only for the events page specific styling */
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Assets/Events/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Events Sections */
+.events-section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.events-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.events-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #f6921e; /* E-Cell orange color */
+}
+
+/* Events Grid */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Event Cards */
+.event-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.event-img {
+    height: 200px;
+    overflow: hidden;
+}
+
+.event-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.event-card:hover .event-img img {
+    transform: scale(1.05);
+}
+
+.event-info {
+    padding: 20px;
+}
+
+.event-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event-date, .event-location {
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.event-date i, .event-location i {
+    margin-right: 8px;
+    color: #f6921e; /* E-Cell orange color */
+}
+
+.event-description {
+    margin: 15px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.btn-register, .btn-view, .btn-show-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-register {
+    background-color: #f6921e; /* E-Cell orange color */
+    color: white;
+    border: none;
+}
+
+.btn-register:hover {
+    background-color: #e07a08;
+}
+
+.btn-view {
+    background-color: transparent;
+    color: #f6921e;
+    border: 2px solid #f6921e;
+}
+
+.btn-view:hover {
+    background-color: #f6921e;
+    color: white;
+}
+
+/* Show More Button */
+.show-more-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn-show-more {
+    background-color: transparent;
+    color: #f6921e;
+    border: 2px solid #f6921e;
+    font-size: 1rem;
+}
+
+.btn-show-more:hover {
+    background-color: #f6921e;
+    color: white;
+}
+
+.btn-show-more i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Hidden Events Section */
+.hidden {
+    display: none;
+}
+
+/* Upcoming Events Section Highlight */
+.upcoming-events {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+}
+
+/* Past Events Section Style */
+.past-events {
+    padding-top: 60px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .events-section h2 {
+        font-size: 2rem;
+    }
+    
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .event-card {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 70px 15px;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    
+    .event-info h3 {
+        font-size: 1.3rem;
+    }
+    
+    .btn-register, .btn-view, .btn-show-more {
+        width: 100%;
+        padding: 12px;
+    }
+}
