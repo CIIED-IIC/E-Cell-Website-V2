@@ -1,62 +1,118 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    color: #333;
-    line-height: 1.6;
-}
-header {
-    background-color: #e62b1e;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-header h1 {
-    margin-bottom: 10px;
-}
-section {
-    padding: 30px 20px;
-    max-width: 900px;
-    margin: auto;
-}
-.countdown {
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.speakers-grid {
+/* tedx-style.css - Only for the tedx page specific styling */
+
+.hero {
+    height: 100vh;  /* Full-screen height */
+    background: url('https://source.unsplash.com/1600x900/?nature,technology') center/cover no-repeat;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.speaker-card {
-    width: 250px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 20px;
+    color: white;
+    padding-top: 60px; /* Ensures space below fixed navbar */
 }
+
+.register-button {
+    display: inline-block;
+    background-color: #eb0028; /* TEDx Red */
+    color: #fff; /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-button:hover {
+    background-color: #c1271c; /* Darker Red on Hover */
+    transform: scale(1.05);
+}
+
+/* Event Information Section */
+#event-info {
+    background: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#event-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#event-info li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Countdown Section */
+#countdown {
+    background: #eb0028;
+    color: white;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timebox{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.time{
+    text-align: center;
+}
+
+.time h2{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 100;
+
+}
+
+/* Speakers Section */
+#speakers {
+    background: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.speaker-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
 .speaker-card img {
     width: 100%;
-    height: auto;
     border-radius: 10px;
 }
-.btn-register {
-    display: block;
-    width: fit-content;
-    margin: 30px auto;
-    padding: 10px 25px;
-    background-color: #e62b1e;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+
+.speaker-card h3 {
+    margin: 10px 0 5px;
 }
-footer {
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 15px 10px;
-}
-#threejs-container {
-    width: 100vw;
-    height: 100vh;
+
+.speaker-card p {
+    font-size: 1rem;
+    color: #666;
 }

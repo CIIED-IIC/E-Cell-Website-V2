@@ -4,156 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEDxBITS Dubai 2025</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Inline CSS -->
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            color: #333;
-            line-height: 1.6;
+    <link href="../CSS/tedx-style.css" rel="stylesheet">
+    <link href="../CSS/index-style.css" rel="stylesheet">
+
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+          }
         }
-        header {
-            background-color: #e62b1e;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-        }
-        header h1 {
-            margin-bottom: 10px;
-        }
-        section {
-            padding: 30px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        .countdown {
-            font-size: 1.5em;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .speakers-grid {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .speaker-card {
-            width: 250px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .speaker-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .btn-register {
-            display: block;
-            width: fit-content;
-            margin: 30px auto;
-            padding: 10px 25px;
-            background-color: #e62b1e;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        footer {
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 15px 10px;
-        }
-    </style>
+      </script>
+
 </head>
-
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+          <img src="..\Assets\E-Cell-assets\Transparent_Ecell.png" alt="Logo" />
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="#">Incubator</a>
+            <a href="team.html">Our Team</a>
+            <a href="#">Join Us</a>
+            <a href="tedx.html" class="tedx-logo">TED<span>x</span></a>
+            <a href="#">Contact Us</a>
+        </div>
+    </nav>
+    <!-- Navigation Bar ends -->
 
-<header>
-    <h1>TEDxBITS Dubai 🌟</h1>
-    <p><em>"Ideas Worth Spreading"</em></p>
-</header>
+    <!-- ThreeJs Design -->
+    <section class="hero">
+        <!-- <a href="#register" class="btn-register">🎟️ Register Now!</a> -->
+        <script type="module"></script>
+    </section>
+    <!-- ThreeJs Design ends -->
 
-<section id="event-info">
-    <h2>📅 Event Information</h2>
-    <ul>
-        <li><strong>Date:</strong> Saturday, April 26, 2025</li>
-        <li><strong>Venue:</strong> Auditorium, BITS Pilani Dubai Campus, Dubai International Academic City</li>
-        <li><strong>Time:</strong> 10:00 AM - 5:00 PM</li>
-    </ul>
-</section>
+    <section id="event-info">
+        <h2>📅 Event Information</h2>
+        <ul>
+            <li><strong>Date:</strong> Saturday, April 15th, 2025</li>
+            <li><strong>Venue:</strong> Auditorium, BITS Pilani Dubai Campus, Dubai International Academic City</li>
+            <li><strong>Time:</strong> 10:00 AM - 12:00 PM</li>
+        </ul>
+    </section>
 
-<section id="countdown">
-    <h2>⏳ Countdown to TEDxBITS Dubai</h2>
-    <div class="countdown" id="timer">Loading countdown...</div>
-</section>
+    <section id="countdown">
+        <h2 class="time">⏳ Countdown to TEDxBITS Dubai</h2>
+        <div class="timebox">
+            <div class="time">
+                <h2 id="days">00</h2>
+                <p>Days</p>
+            </div>
+            <div class="time">
+                <h2 id="hours">00</h2>
+                <p>Hours</p>
+            </div>
+            <div class="time">
+                <h2 id="minutes">00</h2>
+                <p>Minutes</p>
+            </div>
+            <div class="time">
+                <h2 id="seconds">00</h2>
+                <p>Seconds</p>
+            </div>
+    </section>
 
-<section id="speakers">
-    <h2>🎤 Speakers (Coming Soon)</h2>
-    <div class="speakers-grid">
-        
-        <!-- Example Speaker Tile -->
-        <div class="speaker-card">
-          <img src="https://via.placeholder.com/250x250.png?text=Speaker+1" alt="Speaker Image">
-          <h3>Dr. Jane Doe</h3>
-          <p>AI Researcher at Tech Innovations Inc.</p>
+    <section id="speakers">
+        <h2>🎤 Speakers (Coming Soon)</h2>
+        <div class="speakers-grid">
+
+            <!-- Example Speaker Tile -->
+            <div class="speaker-card">
+              <img src="../Assets/test-placeholder-pics/tom-suit-placeholder.jpg" alt="Speaker Image">
+              <h3>AB</h3>
+              <p>CTO</p>
+            </div>
+
+            <div class="speaker-card">
+              <img src="../Assets/test-placeholder-pics/tom-suit-placeholder.jpg" alt="Speaker Image">
+              <h3>CD</h3>
+              <p>CEO</p>
+            </div>
+
+            <div class="speaker-card">
+              <img src="../Assets/test-placeholder-pics/tom-suit-placeholder.jpg" alt="Speaker Image">
+              <h3>EF</h3>
+              <p>CFO</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-links">
+          <h3>Navigate</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Incubator</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Join Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <a href="#" class="tedx-logo">TED<span>x</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-socials">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="mailto:your-email@example.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
 
-        <div class="speaker-card">
-          <img src="https://via.placeholder.com/250x250.png?text=Speaker+2" alt="Speaker Image">
-          <h3>Mr. John Smith</h3>
-          <p>CEO & Founder of GreenStartups</p>
+        <!-- Make an ECELL google map point and replace the location src here -->
+        <div class="footer-map">
+          <h3>Find Us</h3>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.0645650689953!2d55.419134498569015!3d25.131324837916832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f63ecaf0b7683%3A0x178903db8ef63bc7!2sBirla%20Institute%20of%20Technology%20and%20Science%2C%20Pilani-%20Dubai!5e0!3m2!1sen!2sae!4v1741945771432!5m2!1sen!2sae"
+              width="100%"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+          <p class="location-address">
+            BITS Pilani Dubai Campus, Dubai International Academic City, Dubai,
+            UAE
+          </p>
         </div>
-
-        <div class="speaker-card">
-          <img src="https://via.placeholder.com/250x250.png?text=Speaker+3" alt="Speaker Image">
-          <h3>Ms. Sarah Ahmed</h3>
-          <p>Social Entrepreneur & TED Fellow</p>
-        </div>
-
-    </div>
-</section>
-
-<a href="#register" class="btn-register">🎟️ Register Now!</a>
-
-<footer id="social-media">
-    <p><strong>Connect With Us:</strong></p>
-    Instagram | Twitter/X | Facebook : @tedxbitsdubai
-</footer>
-
-<!-- Countdown Timer JavaScript -->
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("April 26, 2025 10:00:00").getTime();
-
-// Update the count down every second
-var x = setInterval(function() {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 *24)) / (1000 *60*60));
-    var minutes = Math.floor((distance % (1000*60*60)) / (1000*60));
-    var seconds = Math.floor((distance % (1000*60)) /1000);
-
-    // Display result in the element with id "timer"
-    document.getElementById("timer").innerHTML = days + " Days " + hours + " Hours "
-      + minutes + " Minutes " + seconds + " Seconds ";
-
-    // If countdown is finished
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("timer").innerHTML = "Event Started!";
-    }
-},1000);
-</script>
+      </div>
+      <div class="footer-bottom">
+        <p>Entrepreneurship Cell BITS Pilani Dubai</p>
+      </div>
+    </footer>
 
 </body>
 </html>
