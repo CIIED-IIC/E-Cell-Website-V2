@@ -19,3 +19,7 @@ Version 2 of E Cell website + TedX page
 
 1. rest of the pages lol 
 2. TedX page esp
+
+# Bugs
+
+1. that stupid tedX navbar formatting. the font is not thick enough 
