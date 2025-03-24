@@ -7,6 +7,7 @@ Version 2 of E Cell website + TedX page
 1. Create burger menu for nav bar in mobile view
 2. Add all council members in team page
 3. Add Past success stories (home page)
+4. Add tedX team in tedx.html
 
 ## To refine:
 1. CSS - re-structure css so that footer and navbar are in seperate file and can be reused. currently linking multiple sheets can induce conflicting styles (linking index.css + tedx-style.css).
@@ -17,8 +18,7 @@ Version 2 of E Cell website + TedX page
 
 ## to start
 
-1. rest of the pages lol 
-2. TedX page esp
+1. incubator page or merge it with index.html
 
 # Bugs
 
