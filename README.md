@@ -8,6 +8,13 @@ Version 2 of E Cell website + TedX page
 2. Add all council members in team page
 3. Add Past success stories (home page)
 
+## To refine:
+1. CSS - re-structure css so that footer and navbar are in seperate file and can be reused. currently linking multiple sheets can induce conflicting styles (linking index.css + tedx-style.css).
+
+2. TedX red in the tedX page. Interchange TEDx to red and bits to white in the tedx.html hero section.
+
+3. Maybe replace all TedX texts (navbar etc) with actual transparent logo
+
 ## to start
 
 1. rest of the pages lol 
