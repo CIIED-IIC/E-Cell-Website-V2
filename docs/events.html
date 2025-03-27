@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Cell BITS Pilani Dubai</title>
+    <link rel="stylesheet" href="../CSS/events-style.css" />
+    <link rel="stylesheet" href="../CSS/index-style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="..\Assets\E-Cell-assets\Transparent_Ecell.png" alt="Logo" />
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="team.html">Our Team</a>
+            <a href="join.html">Join Us</a>
+            <a href="tedx.html" class="tedx-logo">TED<span>x</span></a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero-section">
+            <h1>Events</h1>
+            <p>Discover our entrepreneurial journey through exciting events</p>
+            <p>Put a GIF/video/ image here faded/tranclucent</p>
+        </section>
+
+        <!-- Upcoming Events Section -->
+        <section class="events-section upcoming-events">
+            <h2>Upcoming Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/test-placeholder-pics/cat-placeholder.jpg" alt="Startup Weekend" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Startup Weekend</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> May 15-17, 2025</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">A 54-hour weekend event where entrepreneurs, developers, and
+                            designers come together to share ideas, form teams, and launch startups.</p>
+                        <a href="#" class="btn-register">Register Now</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/test-placeholder-pics/cat-placeholder.jpg" alt="Pitch Perfect" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Pitch Perfect</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> June 5, 2025</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">A pitching competition where startups present their ideas to a
+                            panel of judges and investors for feedback and potential funding.</p>
+                        <a href="#" class="btn-register">Register Now</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/test-placeholder-pics/cat-placeholder.jpg" alt="Tech Talk Series" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Tech Talk Series</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> June 20, 2025</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> Online Webinar</p>
+                        <p class="event-description">A series of talks by industry experts on emerging technologies and
+                            their impact on entrepreneurship and business.</p>
+                        <a href="#" class="btn-register">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Past Events Section -->
+        <section class="events-section past-events">
+            <h2>Past Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/Events/e-summit.jpg" alt="E-Summit 2025" />
+                    </div>
+                    <div class="event-info">
+                        <h3>E-Summit 2025</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> February 10-12, 2025</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">Our annual flagship event featuring keynote speeches, panel
+                            discussions, workshops, and networking opportunities.</p>
+                        <a href="#" class="btn-view">View Details</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/Events/ideathon.jpg" alt="Ideathon" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Ideathon</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> January 25, 2025</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">A 12-hour ideation marathon where participants brainstorm and
+                            develop innovative solutions to real-world problems.</p>
+                        <a href="#" class="btn-view">View Details</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/Events/workshop.jpg" alt="Entrepreneurship Workshop" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Entrepreneurship Workshop</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> December 15, 2024</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">An interactive workshop on business model canvas, market research,
+                            and funding strategies for aspiring entrepreneurs.</p>
+                        <a href="#" class="btn-view">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Show More Button for Past Events -->
+            <div class="show-more-container">
+                <button id="show-more-btn" class="btn-show-more">Show More <i class="fas fa-chevron-down"></i></button>
+            </div>
+
+            <!-- Hidden Past Events (Initially Hidden) -->
+            <div id="hidden-events" class="events-grid hidden">
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/Events/investor-meetup.jpg" alt="Investor Meetup" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Investor Meetup</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> November 20, 2024</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> Downtown Dubai</p>
+                        <p class="event-description">A networking event for startups to connect with potential investors
+                            and venture capitalists from the UAE ecosystem.</p>
+                        <a href="#" class="btn-view">View Details</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/Events/hackathon.jpg" alt="Hackathon" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Hackathon</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> October 15-16, 2024</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">A 24-hour coding marathon where teams compete to build innovative
+                            software solutions for given problem statements.</p>
+                        <a href="#" class="btn-view">View Details</a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="../Assets/Events/startup-fair.jpg" alt="Startup Fair" />
+                    </div>
+                    <div class="event-info">
+                        <h3>Startup Fair</h3>
+                        <p class="event-date"><i class="far fa-calendar-alt"></i> September 25, 2024</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> BITS Pilani Dubai Campus</p>
+                        <p class="event-description">An exhibition where student startups showcase their products and
+                            services to the campus community and industry professionals.</p>
+                        <a href="#" class="btn-view">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Navigate</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Incubator</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li>
+                        <a href="#" class="tedx-logo">TED<span>x</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- Make an ECELL google map point and replace the location src here -->
+            <div class="footer-map">
+                <h3>Find Us</h3>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.0645650689953!2d55.419134498569015!3d25.131324837916832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f63ecaf0b7683%3A0x178903db8ef63bc7!2sBirla%20Institute%20of%20Technology%20and%20Science%2C%20Pilani-%20Dubai!5e0!3m2!1sen!2sae!4v1741945771432!5m2!1sen!2sae"
+                        width="100%" height="200" style="border: 0" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <p class="location-address">
+                    BITS Pilani Dubai Campus, Dubai International Academic City, Dubai,
+                    UAE
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Entrepreneurship Cell BITS Pilani Dubai</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Show More functionality -->
+    <script src="../JS/events.js">
+
+    </script>
+</body>
+
+</html>
