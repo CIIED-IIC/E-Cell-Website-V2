@@ -20,11 +20,10 @@
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="events.html">Events</a>
-        <a href="#">Incubator</a>
         <a href="team.html">Our Team</a>
         <a href="join.html">Join Us</a>
         <a href="tedx.html" class="tedx-logo">TED<span>x</span></a>
-        <a href="#">Contact Us</a>
+        <a href="contact.html">Contact Us</a>
       </div>
     </nav>
     <!--Navigation Bar ends-->
@@ -32,11 +31,19 @@
       <div class="hero-content">
         <div class="left-section">
           <h1 class="hero-title">E-CELL BITS Pilani, Dubai Campus</h1>
-          <p class="hero-description">lorem</p>
-          <a href="#" class="cta-button">
-            Know More
-            <span class="button-icon">&#10132;</span>
-          </a>
+          <p class="hero-description">
+            Welcome to the Entrepreneurship Cell of BITS Pilani Dubai
+          </p>
+          <div class="button-container">
+            <a href="#about" class="cta-button" id="know-more-btn">
+              Know More
+              <span class="button-icon">&#10132;</span>
+            </a>
+            <a href="#incubator" class="cta-button" id="apply-btn">
+              Apply to Incubator
+              <span class="button-icon">&#10132;</span>
+            </a>
+          </div>
           <div class="scroll-indicator">&#8595;</div>
         </div>
 
@@ -44,28 +51,235 @@
       </div>
     </section>
     <!-- WHO ARE WE SECTION -->
-    <section class="dark-section">
-        <br>
-        <div class="heading">
-            <h2>Who Are We?</h2>
-            <hr class="gold-divider" />
+    <section class="dark-section" id="about">
+      <br />
+      <div class="heading">
+        <h2>Who Are We?</h2>
+        <hr class="gold-divider" />
+      </div>
+
+      <div class="text-block">
+        <b>Entrepreneurship Cell (E-Cell) - BITS Pilani, Dubai Campus</b>
+        <br />
+        <p>
+          E-Cell at BITS Pilani, Dubai Campus, is a dynamic hub for aspiring
+          entrepreneurs, fostering innovation and equipping students with the
+          skills to develop, manage, and scale business ventures. Our mission is
+          to cultivate an entrepreneurial mindset by providing hands-on
+          experiences, industry insights, and networking opportunities.
+        </p>
+        <p></p>
+      </div>
+
+      <div class="text-block">
+        <p>
+          Through workshops, seminars, and speaker series featuring industry
+          leaders, E-Cell empowers students to transform ideas into impactful
+          ventures. Whether you're exploring product development, business
+          strategy, or market analysis, ECell offers the resources and community
+          to support your entrepreneurial journey.
+        </p>
+      </div>
+      <div>
+        <h2 class="small-heading">Previous Success Stories</h2>
+        <hr class="gold-divider" />
+      </div>
+    </section>
+    <section>
+      <div class="success-stories-section">
+        <div class="success-stories-container" id="success-stories-container">
+          <!-- Initial visible stories -->
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img src="../Assets/test-placeholder-pics/cat-placeholder.jpg" alt="TechSolutions" />
+            </div>
+            <h3>TechSolutions</h3>
+            <p>
+              AI-powered logistics solutions that reduced delivery costs by 35%
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img src="../Assets/test-placeholder-pics/cat-placeholder.jpg" alt="EcoInnovate" />
+            </div>
+            <h3>EcoInnovate</h3>
+            <p>
+              Sustainable packaging alternatives now used by over 200 businesses
+              in UAE
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img
+                src="../Assets/test-placeholder-pics/cat-placeholder.jpg"
+                alt="FinTech Solutions"
+              />
+            </div>
+            <h3>FinTech Solutions</h3>
+            <p>
+              Revolutionizing payment systems for small businesses across the
+              MENA region
+            </p>
+          </div>
         </div>
 
-        <div class="text-block">
-            <b>Entrepreneurship Cell (E-Cell) - BITS Pilani, Dubai Campus</b>
-            <br>
-            <p> E-Cell at BITS Pilani, Dubai Campus, is a dynamic hub for aspiring entrepreneurs, fostering innovation and equipping students with the skills to develop, manage, and scale business ventures. Our mission is to cultivate an entrepreneurial mindset by providing hands-on experiences, industry insights, and networking opportunities.<p>
+        <!-- Hidden stories that will be revealed -->
+        <div class="hidden-stories" id="hidden-stories">
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img
+                src="../Assets/test-placeholder-pics/cat-placeholder.jpg"
+                alt="HealthTech Innovations"
+              />
+            </div>
+            <h3>HealthTech Innovations</h3>
+            <p>
+              Digital healthcare platform connecting patients with specialists
+              across the Middle East
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img
+                src="../Assets/test-placeholder-pics/cat-placeholder.jpg"
+                alt="Smart Education"
+              />
+            </div>
+            <h3>Smart Education</h3>
+            <p>
+              E-learning platform that has helped over 10,000 students access
+              quality education
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img src="../Assets/startups/startup6.jpg" alt="Urban Farming" />
+            </div>
+            <h3>Urban Farming</h3>
+            <p>
+              Innovative vertical farming technology reducing water usage by 90%
+              in desert regions
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img src="../Assets/startups/startup7.jpg" alt="CleanEnergy" />
+            </div>
+            <h3>CleanEnergy</h3>
+            <p>
+              Solar solution provider that has installed over 5,000 units across
+              residential communities
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img src="../Assets/startups/startup8.jpg" alt="Travel Tech" />
+            </div>
+            <h3>Travel Tech</h3>
+            <p>
+              AI-powered travel platform that has transformed tourism
+              experiences in the region
+            </p>
+          </div>
+
+          <div class="success-story-card">
+            <div class="startup-image">
+              <img
+                src="../Assets/startups/startup9.jpg"
+                alt="Retail Revolution"
+              />
+            </div>
+            <h3>Retail Revolution</h3>
+            <p>
+              Omnichannel retail solution adopted by major shopping centers in
+              Dubai and Abu Dhabi
+            </p>
+          </div>
         </div>
-        <div class="text-block">
-            <p> Through workshops, seminars, and speaker series featuring industry leaders, E-Cell empowers students to transform ideas into impactful ventures. Whether you're exploring product development, business strategy, or market analysis, ECell offers the resources and community to support your entrepreneurial journey.</p>
+
+        <!-- This is an anchor that allows to scroll to this point using the hero buttons.
+        It is placed a bit further up as it the auto scroll was clipping the heading of the incubator -->
+        <anchor id="incubator-anchor"></anchor>
+
+        <div class="view-more-container">
+          <button id="view-more-button" class="view-more-button">
+            View More Success Stories
+          </button>
         </div>
-        <div>
-            <h2 class="small-heading">In Partnership With</h2>
-            <hr class="gold-divider" />
+      </div>
+    </section>
+
+    <section>
+      <div class="incubator-container">
+        <div class="incubator-image">
+          <img
+            src="../Assets/test-placeholder-pics/cat-placeholder.jpg"
+            alt="BITS Pilani Dubai Incubator"
+          />
         </div>
-        <div class="image-block">
-            <img src="../Assets/E-Cell-assets/Hi Incubator.svg" alt="Hi Incubator Logo" class="partner-logo"/>
+        <div class="incubator-content">
+          <h3>Turning Ideas Into Reality</h3>
+          <p>
+            The BITS Pilani Dubai Incubator provides a nurturing environment for
+            student entrepreneurs to transform innovative ideas into viable
+            businesses. With dedicated mentoring, seed funding opportunities,
+            and state-of-the-art facilities, we give startups the foundation
+            they need to thrive.
+          </p>
+
+          <div class="incubator-features">
+            <div class="feature">
+              <i class="fas fa-users"></i>
+              <h4>Expert Mentorship</h4>
+              <p>Access to industry experts and successful entrepreneurs</p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-coins"></i>
+              <h4>Funding Support</h4>
+              <p>Connect with angel investors and venture capitalists</p>
+            </div>
+            <div class="feature">
+              <i class="fas fa-laptop-code"></i>
+              <h4>Workspace</h4>
+              <p>Modern collaborative spaces with necessary resources</p>
+            </div>
+          </div>
+
+          <div class="applications-notice">
+            <p>
+              <strong>Applications are currently closed in this cycle.</strong>
+            </p>
+            <a class="incubator-apply-button disabled"
+              >Apply to the Incubator</a
+            >
+          </div>
+
+          <!-- Applications are closed comment out the button below -->
+
+          <!-- <a href="incubator.html" class="incubator-apply-button">Apply to the Incubator</a> -->
         </div>
+      </div>
+    </section>
+
+    <!-- in partnership section -->
+    <section class="dark-section">
+      <div>
+        <h2 class="small-heading">In Partnership With</h2>
+        <hr class="gold-divider" />
+      </div>
+      <div class="image-block">
+        <img
+          src="../Assets/E-Cell-assets/Hi Incubator.svg"
+          alt="Hi Incubator Logo"
+          class="partner-logo"
+        />
+      </div>
     </section>
 
     <!-- Footer -->
@@ -124,4 +338,5 @@
       </div>
     </footer>
   </body>
+  <script src="../JS/index.js"></script>
 </html>

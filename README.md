@@ -10,6 +10,9 @@ Version 2 of E Cell website + TedX page
 4. Sort variables and colors in tedX page. rn not consistent
 5. In the contact.html, visit section mention appointments only
 6. sort all contact information in contact page
+7. When clicking view more in events, make it autoscroll
+8. Fix responsiveness in the home page.the hero buttons and tiles dont adjust properly, 
+   also the incubaotr image goes over the register for incubaotr if its small enough(maybe its fine also complete div restructuring would be required then)
 
 ## To refine:
 1. CSS - re-structure css so that footer and navbar are in seperate file and can be reused. currently linking multiple sheets can induce conflicting styles (linking index.css + tedx-style.css).
