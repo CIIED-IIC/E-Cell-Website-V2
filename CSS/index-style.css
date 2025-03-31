@@ -191,16 +191,22 @@ body {
 .cta-button {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    background: #D4AF37;
-    color: black;
+    background: linear-gradient(135deg, #D4AF37, #F2D675);
+    color: #000;
     font-size: 1.2rem;
-    font-weight: 600;
-    padding: 12px 20px;
-    border-radius: 50px;
+    font-weight: 700;
+    padding: 14px 24px;
+    border-radius: 8px;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
-}
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: 2px solid transparent;
+  }
 
 .cta-button:hover {
     background: white;
