@@ -1,0 +1,211 @@
+{
+  "navigation": [
+    { "text": "Home", "href": "index.html" },
+    { "text": "Events", "href": "events.html" },
+    { "text": "Our Team", "href": "team.html" },
+    { "text": "Join Us", "href": "join.html" },
+    { "text": "TEDx", "href": "tedx.html", "is_tedx_logo": true },
+    { "text": "Contact Us", "href": "contact.html" }
+  ],
+  "team_intro": {
+    "heading": "Meet Our E-Cell Council",
+    "description": "The Entrepreneurship Cell at BITS Pilani Dubai Campus is led by a dedicated team of passionate students committed to fostering innovation and entrepreneurship. Our council members bring diverse skills and expertise to create impactful initiatives, mentorship programs, and networking opportunities for aspiring entrepreneurs in our community."
+  },
+  "council_members": {
+    "heading": "Council Members 2024-25",
+    "members": [
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "President",
+        "name": "Cat 1",
+        "position": "President",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Co President",
+        "name": "Cat 2",
+        "position": "Vice President",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Secretary",
+        "name": "ALso a cat",
+        "position": "Vice President",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Treasurer",
+        "name": "Abhiram Smitha",
+        "position": "General Secretary",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Events Head",
+        "name": "Ved Vijay Uplenchwar",
+        "position": "Ex-Officio",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Marketing Head",
+        "name": "Sivaa B",
+        "position": "Head of Operations",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Incubation Head",
+        "name": "Anushka Benjamin",
+        "position": "Head of Marketing",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Technical Head",
+        "name": "Smruti Koul",
+        "position": "Growth Hacker",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Design Head",
+        "name": "Muhammad Fawaz Imran",
+        "position": "Operations Executive",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Content Head",
+        "name": "Krishna Nagpal",
+        "position": "Operations Executive",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Outreach Coordinator",
+        "name": "Kavyasree Nunna",
+        "position": "Marketing Executive",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "PR Manager",
+        "name": "Manavkrishna Manoj",
+        "position": "Marketing Executive",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "PR Manager",
+        "name": "Manavkrishna Manoj",
+        "position": "Marketing Executive",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      }
+    ]
+  },
+  "startup_mentors": {
+    "heading": "Startup Mentors",
+    "mentors": [
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Startup Mentor",
+        "name": "Cat 1",
+        "position": "Startup Mentor",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Startup Mentor",
+        "name": "Cat 1",
+        "position": "Startup Mentor",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      }
+    ]
+  },
+  "faculty_in_charge": {
+    "heading": "Faculty in Charge",
+    "members": [
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Faculty-in-charge",
+        "name": "Cat 1",
+        "position": "Startup Mentor",
+        "social_links": [
+          { "icon": "fab fa-linkedin-in", "href": "#" },
+          { "icon": "fab fa-instagram", "href": "#" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "navigate_links": [
+      { "text": "Home", "href": "#" },
+      { "text": "Events", "href": "#" },
+      { "text": "Incubator", "href": "#" },
+      { "text": "Our Team", "href": "#" },
+      { "text": "Join Us", "href": "#" },
+      { "text": "Contact Us", "href": "#" },
+      { "text": "TEDx", "href": "#", "is_tedx_logo": true }
+    ],
+    "social_links": [
+      { "icon": "fab fa-instagram", "href": "#" },
+      { "icon": "fab fa-youtube", "href": "#" },
+      { "icon": "fas fa-envelope", "href": "mailto:your-email@example.com" },
+      { "icon": "fab fa-linkedin-in", "href": "#" }
+    ],
+    "find_us": {
+      "map_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.0645650689953!2d55.419134498569015!3d25.131324837916832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f63ecaf0b7683%3A0x178903db8ef63bc7!2sBirla%20Institute%20of%20Technology%20and%20Science%2C%20Pilani-%20Dubai!5e0!3m2!1sen!2sae!4v1741945771432!5m2!1sen!2sae",
+      "address": "BITS Pilani Dubai Campus, Dubai International Academic City, Dubai, UAE"
+    },
+    "copyright": "Entrepreneurship Cell BITS Pilani Dubai"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigation": [
+    { "text": "Home", "href": "index.html" },
+    { "text": "Events", "href": "events.html" },
+    { "text": "Our Team", "href": "team.html" },
+    { "text": "Join Us", "href": "join.html" },
+    { "text": "TEDx", "href": "tedx.html", "is_tedx_logo": true },
+    { "text": "Contact Us", "href": "contact.html" }
+  ],
+  "under_progress_message": "under progress"
+}

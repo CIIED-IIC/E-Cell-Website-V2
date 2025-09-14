@@ -1,0 +1,136 @@
+{
+  "navigation": [
+    { "text": "Home", "href": "index.html" },
+    { "text": "Events", "href": "events.html" },
+    { "text": "Our Team", "href": "team.html" },
+    { "text": "Join Us", "href": "join.html" },
+    { "text": "TEDx", "href": "tedx.html", "is_tedx_logo": true },
+    { "text": "Contact Us", "href": "contact.html" }
+  ],
+  "hero": {
+    "title": "Events",
+    "description": "Discover our entrepreneurial journey through exciting events"
+  },
+  "upcoming_events": {
+    "heading": "Upcoming Events",
+    "events": [
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Startup Weekend",
+        "title": "Startup Weekend",
+        "date": "May 15-17, 2025",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "A 54-hour weekend event where entrepreneurs, developers, and designers come together to share ideas, form teams, and launch startups.",
+        "button_text": "Register Now",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Pitch Perfect",
+        "title": "Pitch Perfect",
+        "date": "June 5, 2025",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "A pitching competition where startups present their ideas to a panel of judges and investors for feedback and potential funding.",
+        "button_text": "Register Now",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/test-placeholder-pics/cat-placeholder.jpg",
+        "alt": "Tech Talk Series",
+        "title": "Tech Talk Series",
+        "date": "June 20, 2025",
+        "location": "Online Webinar",
+        "description": "A series of talks by industry experts on emerging technologies and their impact on entrepreneurship and business.",
+        "button_text": "Register Now",
+        "button_href": "#"
+      }
+    ]
+  },
+  "past_events": {
+    "heading": "Past Events",
+    "events": [
+      {
+        "image": "../Assets/Events/e-summit.jpg",
+        "alt": "E-Summit 2025",
+        "title": "E-Summit 2025",
+        "date": "February 10-12, 2025",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "Our annual flagship event featuring keynote speeches, panel discussions, workshops, and networking opportunities.",
+        "button_text": "View Details",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/Events/ideathon.jpg",
+        "alt": "Ideathon",
+        "title": "Ideathon",
+        "date": "January 25, 2025",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "A 12-hour ideation marathon where participants brainstorm and develop innovative solutions to real-world problems.",
+        "button_text": "View Details",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/Events/workshop.jpg",
+        "alt": "Entrepreneurship Workshop",
+        "title": "Entrepreneurship Workshop",
+        "date": "December 15, 2024",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "An interactive workshop on business model canvas, market research, and funding strategies for aspiring entrepreneurs.",
+        "button_text": "View Details",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/Events/investor-meetup.jpg",
+        "alt": "Investor Meetup",
+        "title": "Investor Meetup",
+        "date": "November 20, 2024",
+        "location": "Downtown Dubai",
+        "description": "A networking event for startups to connect with potential investors and venture capitalists from the UAE ecosystem.",
+        "button_text": "View Details",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/Events/hackathon.jpg",
+        "alt": "Hackathon",
+        "title": "Hackathon",
+        "date": "October 15-16, 2024",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "A 24-hour coding marathon where teams compete to build innovative software solutions for given problem statements.",
+        "button_text": "View Details",
+        "button_href": "#"
+      },
+      {
+        "image": "../Assets/Events/startup-fair.jpg",
+        "alt": "Startup Fair",
+        "title": "Startup Fair",
+        "date": "September 25, 2024",
+        "location": "BITS Pilani Dubai Campus",
+        "description": "An exhibition where student startups showcase their products and services to the campus community and industry professionals.",
+        "button_text": "View Details",
+        "button_href": "#"
+      }
+    ]
+  },
+  "footer": {
+    "navigate_links": [
+      { "text": "Home", "href": "#" },
+      { "text": "Events", "href": "#" },
+      { "text": "Incubator", "href": "#" },
+      { "text": "Our Team", "href": "#" },
+      { "text": "Join Us", "href": "#" },
+      { "text": "Contact Us", "href": "#" },
+      { "text": "TEDx", "href": "#", "is_tedx_logo": true }
+    ],
+    "social_links": [
+      { "icon": "fab fa-instagram", "href": "#" },
+      { "icon": "fab fa-youtube", "href": "#" },
+      { "icon": "fas fa-envelope", "href": "mailto:your-email@example.com" },
+      { "icon": "fab fa-linkedin-in", "href": "#" }
+    ],
+    "find_us": {
+      "map_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.0645650689953!2d55.419134498569015!3d25.131324837916832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f63ecaf0b7683%3A0x178903db8ef63bc7!2sBirla%20Institute%20of%20Technology%20and%20Science%2C%20Pilani-%20Dubai!5e0!3m2!1sen!2sae!4v1741945771432!5m2!1sen!2sae",
+      "address": "BITS Pilani Dubai Campus, Dubai International Academic City, Dubai, UAE"
+    },
+    "copyright": "Entrepreneurship Cell BITS Pilani Dubai"
+  }
+}
